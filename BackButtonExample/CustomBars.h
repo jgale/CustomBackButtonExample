@@ -1,8 +1,8 @@
 //
-//  ViewController.h
+//  CustomBars.h
 //  BackButtonExample
 //
-//  Created by Jeremy Gale on 2012-03-19.
+//  Created by Jeremy Gale on 11-06-23.
 //  Copyright (c) 2012 Force Grind Inc. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -23,8 +23,13 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController <UINavigationControllerDelegate>
+
+@interface CustomBars : NSObject
+
+#if defined(__IPHONE_5_0) && __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_5_0
++ (void)setupNavBarStylingiOS5;
+#endif
 
 @end

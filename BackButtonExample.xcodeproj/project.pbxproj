@@ -15,6 +15,12 @@
 		0C9E4FFD1517FB6D00A599AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9E4FFC1517FB6D00A599AA /* AppDelegate.m */; };
 		0C9E50001517FB6D00A599AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9E4FFF1517FB6D00A599AA /* ViewController.m */; };
 		0C9E50031517FB6D00A599AA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C9E50011517FB6D00A599AA /* ViewController.xib */; };
+		0C9E500E1517FD1300A599AA /* CustomBars.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9E500D1517FD1300A599AA /* CustomBars.m */; };
+		0C9E50111517FD2300A599AA /* CustomBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9E50101517FD2300A599AA /* CustomBackButton.m */; };
+		0C9E501D1517FF8B00A599AA /* PushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9E501C1517FF8A00A599AA /* PushedViewController.m */; };
+		0C9E50201517FFA800A599AA /* PushedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C9E501E1517FFA800A599AA /* PushedViewController.xib */; };
+		0C9E50271518012400A599AA /* navigationBarBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9E50251518012400A599AA /* navigationBarBackButton.png */; };
+		0C9E50281518012400A599AA /* navigationBarBackgroundRetro.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9E50261518012400A599AA /* navigationBarBackgroundRetro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +28,24 @@
 		0C9E4FEC1517FB6D00A599AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0C9E4FEE1517FB6D00A599AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0C9E4FF01517FB6D00A599AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0C9E4FF41517FB6D00A599AA /* BackButtonExample-Info.plist */ = {isa = PBXFileReference; path = "BackButtonExample-Info.plist"; sourceTree = "<group>"; };
+		0C9E4FF41517FB6D00A599AA /* BackButtonExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackButtonExample-Info.plist"; sourceTree = "<group>"; };
 		0C9E4FF61517FB6D00A599AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C9E4FF81517FB6D00A599AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0C9E4FFA1517FB6D00A599AA /* BackButtonExample-Prefix.pch */ = {isa = PBXFileReference; path = "BackButtonExample-Prefix.pch"; sourceTree = "<group>"; };
-		0C9E4FFB1517FB6D00A599AA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C9E4FFA1517FB6D00A599AA /* BackButtonExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackButtonExample-Prefix.pch"; sourceTree = "<group>"; };
+		0C9E4FFB1517FB6D00A599AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C9E4FFC1517FB6D00A599AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0C9E4FFE1517FB6D00A599AA /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		0C9E4FFE1517FB6D00A599AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0C9E4FFF1517FB6D00A599AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0C9E50021517FB6D00A599AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0C9E500C1517FD1300A599AA /* CustomBars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBars.h; sourceTree = "<group>"; };
+		0C9E500D1517FD1300A599AA /* CustomBars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBars.m; sourceTree = "<group>"; };
+		0C9E500F1517FD2300A599AA /* CustomBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBackButton.h; sourceTree = "<group>"; };
+		0C9E50101517FD2300A599AA /* CustomBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBackButton.m; sourceTree = "<group>"; };
+		0C9E501B1517FF8A00A599AA /* PushedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushedViewController.h; sourceTree = "<group>"; };
+		0C9E501C1517FF8A00A599AA /* PushedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushedViewController.m; sourceTree = "<group>"; };
+		0C9E501F1517FFA800A599AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PushedViewController.xib; sourceTree = "<group>"; };
+		0C9E50251518012400A599AA /* navigationBarBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBarBackButton.png; sourceTree = "<group>"; };
+		0C9E50261518012400A599AA /* navigationBarBackgroundRetro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBarBackgroundRetro.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +68,7 @@
 				0C9E4FF21517FB6D00A599AA /* BackButtonExample */,
 				0C9E4FEB1517FB6D00A599AA /* Frameworks */,
 				0C9E4FE91517FB6D00A599AA /* Products */,
+				0C9E50121517FDD200A599AA /* Images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +93,18 @@
 		0C9E4FF21517FB6D00A599AA /* BackButtonExample */ = {
 			isa = PBXGroup;
 			children = (
+				0C9E500F1517FD2300A599AA /* CustomBackButton.h */,
+				0C9E50101517FD2300A599AA /* CustomBackButton.m */,
+				0C9E500C1517FD1300A599AA /* CustomBars.h */,
+				0C9E500D1517FD1300A599AA /* CustomBars.m */,
 				0C9E4FFB1517FB6D00A599AA /* AppDelegate.h */,
 				0C9E4FFC1517FB6D00A599AA /* AppDelegate.m */,
 				0C9E4FFE1517FB6D00A599AA /* ViewController.h */,
 				0C9E4FFF1517FB6D00A599AA /* ViewController.m */,
 				0C9E50011517FB6D00A599AA /* ViewController.xib */,
+				0C9E501B1517FF8A00A599AA /* PushedViewController.h */,
+				0C9E501C1517FF8A00A599AA /* PushedViewController.m */,
+				0C9E501E1517FFA800A599AA /* PushedViewController.xib */,
 				0C9E4FF31517FB6D00A599AA /* Supporting Files */,
 			);
 			path = BackButtonExample;
@@ -96,6 +119,16 @@
 				0C9E4FFA1517FB6D00A599AA /* BackButtonExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C9E50121517FDD200A599AA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0C9E50251518012400A599AA /* navigationBarBackButton.png */,
+				0C9E50261518012400A599AA /* navigationBarBackgroundRetro.png */,
+			);
+			name = Images;
+			path = BackButtonExample/Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +184,9 @@
 			files = (
 				0C9E4FF71517FB6D00A599AA /* InfoPlist.strings in Resources */,
 				0C9E50031517FB6D00A599AA /* ViewController.xib in Resources */,
+				0C9E50201517FFA800A599AA /* PushedViewController.xib in Resources */,
+				0C9E50271518012400A599AA /* navigationBarBackButton.png in Resources */,
+				0C9E50281518012400A599AA /* navigationBarBackgroundRetro.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +200,9 @@
 				0C9E4FF91517FB6D00A599AA /* main.m in Sources */,
 				0C9E4FFD1517FB6D00A599AA /* AppDelegate.m in Sources */,
 				0C9E50001517FB6D00A599AA /* ViewController.m in Sources */,
+				0C9E500E1517FD1300A599AA /* CustomBars.m in Sources */,
+				0C9E50111517FD2300A599AA /* CustomBackButton.m in Sources */,
+				0C9E501D1517FF8B00A599AA /* PushedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +223,14 @@
 				0C9E50021517FB6D00A599AA /* en */,
 			);
 			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		0C9E501E1517FFA800A599AA /* PushedViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C9E501F1517FFA800A599AA /* en */,
+			);
+			name = PushedViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

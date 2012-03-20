@@ -1,10 +1,11 @@
 //
-//  ViewController.h
+//  CustonBackButton.h
 //  BackButtonExample
 //
-//  Created by Jeremy Gale on 2012-03-19.
+//  Orignally based off of CustomNavigationBar.m created by Peter Boctor on 1/11/11.
+//  Significant refactoring by Jeremy Gale on 2011-11-20 to make simpler
 //  Copyright (c) 2012 Force Grind Inc. All rights reserved.
-//
+// 
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
 //  in the Software without restriction, including without limitation the rights
@@ -23,8 +24,14 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE
 
-#import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UINavigationControllerDelegate>
+#define MAX_BACK_BUTTON_WIDTH 160.0
+
+@interface CustomBackButton : NSObject
+
++ (UIButton *)backButtonWith:(UIImage *)backButtonImage
+                   highlight:(UIImage *)backButtonHighlightImage
+                       title:(NSString *)title
+                leftCapWidth:(CGFloat)capWidth;
 
 @end
